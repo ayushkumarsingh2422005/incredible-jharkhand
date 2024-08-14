@@ -27,8 +27,8 @@ jobs:
       - name: Upload to FTP server
         uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          ftp-server: ftp://ftp.incrediblejharkhand.org
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp.incrediblejharkhand.org
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
           server-dir: /
