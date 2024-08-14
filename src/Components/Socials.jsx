@@ -36,7 +36,7 @@ export default function Socials() {
     };
 
     return (
-        <div className='w-full flex gap-5 py-20 md:justify-start justify-center px-20'>
+        <div className='w-full flex gap-5 py-20 md:justify-end justify-center px-20'>
             <div>
                 <Tilt>
                     <div ref={addToRefs} className='aspect-square flex items-center justify-center md:w-[60px] w-[15vw] text-5xl'>
