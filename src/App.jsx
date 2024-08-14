@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Footer, Home, Nev, Socials } from './Components';
+import { Footer, Home, Nev, Quot, Socials } from './Components';
 
 gsap.registerPlugin(useGSAP);
 
@@ -14,6 +14,7 @@ function App() {
       <Nev />
       <Home />
       <br />
+      <Quot />
       <Socials />
       <Footer />
     </div>
