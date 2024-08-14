@@ -40,28 +40,28 @@ export default function Socials() {
             <div>
                 <Tilt>
                     <div ref={addToRefs} className='aspect-square flex items-center justify-center md:w-[60px] w-[15vw] text-5xl'>
-                        <a><BsInstagram /></a>
+                        <a href='https://www.instagram.com/incredible.jharkhand'><BsInstagram /></a>
                     </div>
                 </Tilt>
             </div>
             <div>
                 <Tilt>
                     <div ref={addToRefs} className='aspect-square flex items-center justify-center md:w-[60px] w-[15vw] text-5xl'>
-                        <a><BsLinkedin /></a>
+                        <a href='https://www.linkedin.com/company/incredible-jharkhand'><BsLinkedin /></a>
                     </div>
                 </Tilt>
             </div>
             <div>
                 <Tilt>
                     <div ref={addToRefs} className='aspect-square flex items-center justify-center md:w-[60px] w-[15vw] text-5xl'>
-                        <a><BsYoutube /></a>
+                        <a href='https://www.youtube.com/@Incredible-Jharkhand'><BsYoutube /></a>
                     </div>
                 </Tilt>
             </div>
             <div>
                 <Tilt>
                     <div ref={addToRefs} className='aspect-square flex items-center justify-center md:w-[60px] w-[15vw] text-5xl'>
-                        <a><BsWhatsapp /></a>
+                        <a href='https://chat.whatsapp.com/Bc7Fx2Ij4WFJvcIGt7rmDy'><BsWhatsapp /></a>
                     </div>
                 </Tilt>
             </div>

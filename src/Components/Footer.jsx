@@ -12,7 +12,7 @@ export default function Footer() {
                 <div>Designed and developed <br className='md:hidden block'/> by a AlgoByte</div>
             </div>
             <div className='flex gap-3 items-center text-2xl pr-5 flex-col md:flex-row justify-center'>
-                <a href='https://www.linkedin.com/in/its-ayushkrsingh/' target='_blank'><BsInstagram/></a>
+                <a href='https://www.instagram.com/ayush.kr._singh' target='_blank'><BsInstagram/></a>
                 <a href='https://www.linkedin.com/company/algo-byte' target='_blank'><BsLinkedin/></a>
             </div>
         </div>
