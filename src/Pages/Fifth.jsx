@@ -1,5 +1,5 @@
 import React from 'react'
-import palas from '../assets/Images/palas.jpg';
+import palas from '../assets/Images/palas.jpeg';
 import rock from '../assets/Images/rock.jpg';
 import tribe from '../assets/Images/tribe.jpg';
 export default function Fifth() {
