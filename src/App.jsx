@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Fifth, First, Fourth, Second, Sixth, Third } from './Pages';
+import { Fifth, First, Fourth, Second, Sixth, SocialLinks, Third } from './Pages';
 import { Footer } from './Components';
 
 gsap.registerPlugin(useGSAP);
@@ -18,6 +18,7 @@ function App() {
       <Quot />
       <Socials />
       <Footer /> */}
+      <SocialLinks />
       <First />
       <Second />
       <Third />
@@ -25,6 +26,7 @@ function App() {
       <Fifth />
       <Sixth />
       <Footer />
+      
     </div>
   )
 }

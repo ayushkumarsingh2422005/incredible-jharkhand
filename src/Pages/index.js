@@ -4,5 +4,5 @@ import Third from "./Third";
 import Fourth from "./Fourth";
 import Fifth from "./Fifth";
 import Sixth from "./Sixth";
-
-export { First, Second, Third, Fourth, Fifth, Sixth };
+import SocialLinks from "./SocialLinks";
+export { First, Second, Third, Fourth, Fifth, Sixth, SocialLinks };
