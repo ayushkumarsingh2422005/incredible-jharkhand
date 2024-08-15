@@ -7,7 +7,7 @@ export default function First() {
         backgroundImage: 'url("' + logo + '")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        aspectRatio: '1/1'
+        aspectRatio: '1/1',
       }}></div>
       <div className='text-white md:text-7xl text-3xl text-center pt-10 font-bold'>Incredible Jharkhand <br /> Welcomes You</div>
       <div className='text-white md:text-2xl text-base text-center pt-10 font-semibold z-10'>Land full of harritage and culture of nature <br /> and wildlife bla bla bla bla</div>
