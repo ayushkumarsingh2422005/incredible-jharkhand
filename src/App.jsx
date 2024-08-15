@@ -3,7 +3,7 @@ import './App.css';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { Fifth, First, Fourth, Second, Sixth, Third } from './Pages';
-import { Footer, Home, Nev, Quot, Socials } from './Components';
+import { Footer } from './Components';
 
 gsap.registerPlugin(useGSAP);
 
@@ -24,6 +24,7 @@ function App() {
       <Fourth />
       <Fifth />
       <Sixth />
+      <Footer />
     </div>
   )
 }
