@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import { Fifth, First, Fourth, Second, Sixth, Third } from './Pages';
 import { Footer, Home, Nev, Quot, Socials } from './Components';
 
 gsap.registerPlugin(useGSAP);
@@ -11,12 +12,18 @@ function App() {
 
   return (
     <div className='w-full'>
-      <Nev />
+      {/* <Nev />
       <Home />
       <br />
       <Quot />
       <Socials />
-      <Footer />
+      <Footer /> */}
+      <First />
+      <Second />
+      <Third />
+      <Fourth />
+      <Fifth />
+      <Sixth />
     </div>
   )
 }

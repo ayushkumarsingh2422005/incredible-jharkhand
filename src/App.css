@@ -10,3 +10,48 @@ body{
 body::-webkit-scrollbar{
   display: none;
 }
+
+.clip1::before{
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+  background-image: url('./assets/Images/first.jpg');
+  background-size: cover;
+  z-index: -1;
+}
+.clip1::after{
+  width: 10px;
+  height: 20%;
+  position: absolute;
+  top: 78%;
+  left: calc(50% - 5px);
+  content: "";
+  background: #8c8c8c;
+  border-radius: 500px;
+  z-index: -1;
+}
+.clip2::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: hsla(244, 63%, 8%, 0.737);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  clip-path: polygon(0% 40%, 100% 100%, 100% 100%, 0% 100%);
+}
+
+.clip4::before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 0% 100%);
+  background-color: red;
+  width: 100%;
+  z-index: -1;
+  background-image: url('./assets/Images/dhoni.jpg');
+  background-size: cover;
+  background-color: hsla(244, 63%, 8%, 0.737);
+  background-blend-mode: multiply;
+  top: 0;
+  left: 0;
+}
